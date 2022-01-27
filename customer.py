@@ -15,14 +15,17 @@ class Customer:
         self.family_name = family_name
     # def full_name(self):
     #     self.full_name = full_name
+    def full_name(self):
+        # self.full_name = full_name
+        print(self.first_name,self.family_name)
+
 
 # ken.full_name = ken.first_name,ken.family_nameとするものを定義すればいいが、このものってなんというのだ。
 
 
 ken = Customer(first_name="Ken", family_name="Tanaka")
 # print(ken.first_name,ken.family_name)
-
-# ken.full_name()
+ken.full_name()
 
 # # 実体化
 # tanaka = UserName(name='tanaka')
