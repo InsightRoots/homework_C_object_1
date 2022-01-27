@@ -15,8 +15,6 @@ class Customer:
         elif self.age >= 65:
             self.entry_fee = 1,200
 
-
-
 # なぜ年齢が出てくる？？？？？？？？？？場所がおかしい？ということはQ2は間違い？
 
 ken = Customer(first_name="Ken", family_name="Tanaka", age=15)
