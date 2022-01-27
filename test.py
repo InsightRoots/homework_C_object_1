@@ -1,7 +1,6 @@
 class Customer:
     def __init__(self,age):
         self.age = age
-    def age(self):
         print(self.age)
 
 ken = Customer(age=15)

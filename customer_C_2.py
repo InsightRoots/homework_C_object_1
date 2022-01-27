@@ -3,24 +3,27 @@ class Customer:
         self.first_name = first_name
         self.family_name = family_name
         self.age = age
+        print(self.age)
     def full_name(self):
         print(self.first_name,self.family_name)
         # print(self.age)
     # def age(self):
     #     print(self.age)
-    def age(self):
-        print(int(self.age))
+    # def age(self):
+    #     print(int(self.age))
 
 ken = Customer(first_name="Ken", family_name="Tanaka", age=15)
+#
+# print(ken.age)
+# ken.age
+# print(ken.age)
 
-print(ken.age)
-ken.age
-print(ken.age)
 
 # なぜこれで出力出てこない・・・・
 #エラーが出てこないから検討つかない・・・・。こういうときどうしたらいいのだ？
 
-
+ken.age
+# 本当にこれでいいのか？？？？でてきたけども。。。。
 
 
 
