@@ -5,6 +5,7 @@ class Customer:
         self.age = age
     def full_name(self):
         print(self.first_name,self.family_name)
+        print(self.age)
         # print(self.age)
     # def age(self):
     #     print(self.age)
@@ -17,8 +18,6 @@ print(ken.age)
 # print(ken.age)
 # ken.age
 # print(ken.age)
-
-
 # なぜこれで出力出てこない・・・・
 #エラーが出てこないから検討つかない・・・・。こういうときどうしたらいいのだ？
 
