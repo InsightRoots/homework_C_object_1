@@ -3,23 +3,21 @@ class Customer:
         self.first_name = first_name
         self.family_name = family_name
         self.age = age
-        print(self.age)
     def full_name(self):
         print(self.first_name,self.family_name)
     def entry_fee(self):
-        self.entry_fee = entry_fee
-        if self.age < 20 :
-            self.entry_fee = 1,000
-        elif 20<= self.age < 60:
-            self.entry_fee = 1,500
-        elif self.age >= 65:
-            self.entry_fee = 1,200
+        if self.age < 20:
+            return 1000
+        elif 20 <= self.age < 60:
+            return 1500
+        else :
+            return 1200
 
 # なぜ年齢が出てくる？？？？？？？？？？場所がおかしい？ということはQ2は間違い？
 
 ken = Customer(first_name="Ken", family_name="Tanaka", age=15)
+print(ken.entry_fee())
 
-ken.entry_fee
 
 # 1000 という値を返す
 
